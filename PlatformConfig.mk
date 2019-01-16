@@ -17,7 +17,7 @@ PLATFORM_COMMON_PATH := device/sony/loire
 PRODUCT_PLATFORM_SOD := true
 
 TARGET_BOARD_PLATFORM := msm8952
-KERNEL_PATH := kernel/sony/msm-4.9
+KERNEL_PATH := kernel/sony/msm-$(SOMC_KERNEL_VERSION)
 
 #ART_BOOT_IMAGE_EXTRA_ARGS=--runtime-arg -verbose:verifier
 
